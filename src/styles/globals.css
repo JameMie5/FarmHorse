@@ -1,0 +1,623 @@
+:root {
+  --main_color: #3f2305;
+  --op_main_color: #ffffff;
+  --hover_main_color: #aeaca8;
+  --op_hover_color: #000000;
+
+  --sec_color: #000000;
+  --op_sec_color: #ffffff;
+  --hover_sec_color: #a8aaae;
+  --op_hover_sec_color: #000;
+
+  --third_color: #000000;
+  --op_third_color: #fff;
+  --hover_third_color: #a8aaae;
+  --op_hover_third_color: #000;
+}
+
+body {
+  background-color: #f0f1f6;
+  font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+hr {
+  border-color: #f2f2f2;
+  opacity: 1;
+}
+
+._h_100vh {
+  height: 100vh;
+}
+._rounded5px {
+  border-radius: 5px;
+}
+._rounded15px {
+  border-radius: 15px;
+}
+._rounded5px_top {
+  border-radius: 5px 5px 0 0;
+}
+._border_input {
+  border-color: #f2f2f2;
+}
+._border_form {
+  border-color: #dbdade;
+}
+.table-divider {
+  border-top: 1px solid #dee2e6;
+}
+
+
+._btn_main {
+  background-color: var(--main_color);
+  border-color: var(--main_color);
+  color: var(--op_main_color);
+}
+
+._btn_main:hover {
+  background-color:var(--main_color);
+  border-color:var(--hover_main_color);
+  color: var(--op_hover_color);
+  opacity: 0.6;
+}
+a {
+  text-decoration: none;
+}
+._lang_swich{
+  max-width: 100px;
+  text-align: center;
+  min-width: 6rem;
+}
+._b_fontlag {
+  font-size: small;
+  margin: auto; 
+}
+._b_drop {
+  border: none;
+}
+._b_custom-dropdown {
+  max-width: 120px;
+  min-width: 6rem; 
+  border: 1px solid #ccc;
+  border-radius: 0.3;
+  box-shadow: 0 0 12px rgba(155, 153, 153, 0.3);
+}
+.headfram{
+  color: #6f6b7d;
+}
+._langue{
+  width: 100px;
+}
+
+._imge_profile {
+  background-color: #000;
+  display: flex;
+  justify-content: center; /* จัดให้อยู่ตรงกลางแนวนอน */
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+  height: 200px; /* ปรับขนาดตามที่ต้องการ */
+  width: 250px;
+  border-radius: 20px;
+}
+._imge_profile img {
+  max-width: 50px; /* ปรับขนาดรูปภาพให้ไม่เกินขนาดของ _imge_profile */
+  max-height: 50px; /* ปรับขนาดรูปภาพให้ไม่เกินขนาดของ _imge_profile */
+}
+
+._btn_export {
+  background-color: #f1f1f2;
+  border-color: #f1f1f2;
+  color: var(--hover_main_color);
+}
+._btn_export:hover {
+  background-color: #f1f1f2;
+  border-color: #f1f1f2;
+  color: var(--op_hover_color);
+  opacity: 0.6;
+}
+._cursor_pointer {
+  cursor: pointer;
+}
+.form-select {
+  color: #6f6b7d;
+}
+.form-control {
+  color: #6f6b7d;
+}
+input::placeholder {
+  font-size: 16px;
+  color: #6f6b7d;
+}
+._sidebar {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 260px;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+._main {
+  width: 100% !important;
+  margin-left: 0;
+}
+._shadow {
+  box-shadow: rgba(47, 43, 61, 0.14) 0px 2px 6px 0px;
+}
+.accordion-button:not(.collapsed) {
+  color: #2f2b3dc7;
+  background-color: #f3f3f4;
+  box-shadow: unset;
+}
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+  border-radius: 5px;
+}
+
+._text_secondary {
+  color: #6f6b7d;
+  font-size: 14px;
+  border: none;
+}
+._bg_secondary {
+  background-color: #f3f3f4;
+  border-color: #f3f3f4;
+  color: #fff;
+}
+
+._bg_secondary:hover {
+  background-color: #fff;
+  border-color: #f3f3f4;
+  color: #f3f3f4;
+}
+.accordion-item {
+  border: unset;
+}
+.accordion-button::after {
+  height: 1rem;
+  width: 1rem;
+  background-size: 1rem;
+}
+._w_perpage {
+  width: 100px;
+}
+._w_search {
+  width: 100%;
+}
+._w_table_action {
+  width: 120px;
+  text-align: center;
+}
+._iconUser1 {
+  color: #006500;
+}
+._iconUser2 {
+  color: #a8a800;
+}
+._iconUser3 {
+  color: #e00505;
+}
+
+.fa-solid.fa-o {
+  font-size: 10px !important;
+}
+.bg-label-success {
+  background-color: #dff7e9 !important;
+  color: #28c76f !important;
+}
+.bg-label-secondary {
+  background-color: #f2f2f3 !important;
+  color: #a8aaae !important;
+}
+.dropdown-menu {
+  border: unset;
+}
+.x{
+  --main_color: #000000;
+  --op_main_color: #fff;
+  --hover_main_color: #a8aaae;
+  --op_hover_color: #000;
+}
+._active_btn {
+  background-color: var(--main_color);
+  border-color: var(--main_color);
+  color: var(--op_main_color);
+  box-shadow: 1px 3px 3px  rgba(0, 0, 0, 0.4);
+}
+._active_btn:focus {
+  background-color: var(--main_color);
+  border-color: var(--main_color);
+  color: #fff;
+  
+}
+._active_btn:hover {
+  background-color: var(--op_main_color);
+  border-color: var(--op_main_color);
+  color: #28160a;
+  opacity: 0.6;
+}
+._editprofile {
+  margin-left: 16px;
+  font-size: larger;
+  color: #5b5b5b;
+}
+._nameuser{
+  color: #ff0000;
+  font-size: larger;
+  
+}
+._w_100 {
+  width: 100%;
+}
+._w_offcanvas {
+  width: 260px !important;
+}
+._b_Footer {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #959699;
+}
+._b_Footers {
+  text-align: right;
+  
+}
+.bold-text {
+  font-weight: bold;
+  color: #5b5b5b;
+  font-size: 13px;
+}
+.btn_menu {
+  box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.2);
+  background-color:  var(--main_color);
+  color: white;
+}
+.btn_menu:focus {
+  color: rgb(255, 255, 255);
+}
+
+.btn_menu:hover {
+  color: rgb(177, 177, 177);
+}
+
+.btn_menu_:hover {
+  color: var(--op_main_color);
+}
+.btn_menu_:focus{
+  color: var(--op_main_color);
+}
+._img_profile {
+  border-radius: 10px;
+  box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.4);
+}
+._img_profile_{
+  box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 180px;
+  height: 180px;
+}
+.icon {
+  font-size: 10px; /* กำหนดขนาดของไอคอนเป็น 24px */
+  width: 15px; /* กำหนดความกว้างของไอคอนเป็น 24px */
+  height: 15px; /* กำหนดความสูงของไอคอนเป็น 24px */
+}
+._nickname {
+  background-color: #ededed;
+  padding: 4px;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 7px;
+  color: #b5b5b5;
+  font-size: 11px;
+  font-weight: bold;
+}
+.name_lastname {
+  font-size: 20px;
+}
+.details {
+  display: flex;
+  margin-right: 20px;
+}
+._text_details {
+  font-size: 12px;
+  color: #878787;
+}
+._head_text {
+  font-weight: bold;
+}
+.edit_ {
+  background-color: var(--main_color);
+  color: white;
+  width: 80px;
+}
+.delete_ {
+  width: 90px;
+}
+._font_ {
+  font-weight: lighter;
+}
+._font_deteil {
+  font-size: 14px;
+  font-weight: bold;
+}
+.icon_horse {
+  font-size: 25px;
+  width: 35px;
+  height: 35px;
+  margin-top: 17px;
+  margin-left: 14px;
+  text-align: center;
+}
+.text-center {
+  display: grid;
+  place-items: center;
+}
+.image-upload-container {
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.file-input {
+  display: none;
+}
+
+.upload-label {
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #919191;
+  border-radius: 50px;
+}
+
+.image-preview {
+  display: block;
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.font_size {
+  font-size: 11px;
+}
+._fname_ {
+  font-size: 20px;
+  color: #e70000;
+}
+td[data-content="STATUS"] small {
+  color: rgb(67, 140, 67);
+  background-color: #ececec;
+  padding: 4px;
+  border-radius: 7px;
+  font-size: 11px;
+  font-weight: bold;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+tr {
+  border-bottom: 1px solid #ddd;
+}
+._icon_circle{
+  font-size: 15px;
+  margin-top: 5px;
+}
+._breadcrumb  {
+  border-radius: 7px;
+  color: #767676;
+  font-size: 14px;
+  font-weight: bold;
+  
+  
+}
+._link {
+  color: #c6c6c6;
+}
+.img_profile {
+  border-radius: 10px;
+}
+._icon_Up {
+  padding: 2px;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 4px;
+  right: 19px;
+}  
+._icon_Down {
+  padding: 2px;
+  font-size: 15px;
+  position: absolute;
+  margin-top: 16px;
+  right: 19px;
+}
+.icon_b{
+margin-bottom: 39px;
+}
+._btn_A {
+  background-color:  var(--main_color);
+  color: #ffffff;
+}
+._btn_A:hover {
+  background-color:  var(--hover_main_color);
+  color: #ffffff;
+}
+._datebtn:hover {
+color: #000000;
+}
+._Image_pro {
+  border-radius: 5px 5px 0 0;
+  justify-content: center;
+}
+.card_img{
+  box-shadow: 0px 3px 4px  rgba(142, 142, 142, 0.2);
+  border: none; /* เปลี่ยนสีเส้นขอบเป็นสีแดง */
+  justify-content: center;
+  
+}
+
+._datebtn {
+  transition: background-color 0.3s ease, border-bottom 0.3s ease; /* เพิ่ม transition เพื่อทำให้เส้นใต้เปลี่ยนสีเมื่อมีการคลิก */
+  border-bottom: 2px solid transparent; /* เริ่มต้นด้วยการกำหนดเส้นใต้ให้เป็นโปร่ง */
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+._datebtn.clicked {
+  color: #005eff;
+  font-weight: bold;
+  border-bottom-color:#005eff; /* สีของเส้นใต้เมื่อปุ่มถูกคลิก */
+}
+
+.date_btn {
+  background-color: #ebebeb;
+  border: none;
+  width: 130px;
+  height: 45px;
+  padding: 5px;
+}
+.date_btn.active {
+  background-color: #007bff;
+  color: white;
+}
+._imageds_login {
+  width: 50%;
+  margin-left: 100px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+._swiper {
+  text-align: center;
+}
+._Link {
+  color: #5b5b5b;
+}
+._iconleft {
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  color: #000;
+}
+.red {
+  background-color: red;
+}
+
+._iconright {
+  border: none;
+  margin-right: 20px;
+  background-color: transparent;
+}
+._aaaaa {
+  display: none;
+}
+.fa-pen-to-square {
+  cursor: pointer;
+}
+.head_sysrem {
+  font-size: 20px;
+}
+
+.Upload_ {
+  border-radius: 10px;
+  background-color: #f0f0f0;
+  border: 2px solid #acacac; /* เพิ่มเฉพาะเส้นขอบในรูปของ Upload.png */
+  padding: 10px; /* ระยะห่างของข้อความกับกรอบ */
+}
+.btn_Upload {
+  background-color: var(--main_color);
+  border-color: var(--main_color);
+  color: var(--op_main_color);
+}
+.btn_Upload:hover{
+  background-color:var(--main_color);
+  border-color:var(--hover_main_color);
+  color: var(--op_hover_color);
+  opacity: 0.6;
+}
+.btn_Cancel {
+  color: #9f9e9e;
+}
+
+.Image_Previwe {
+  box-shadow: 0px 3px 4px  rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+}
+.Image_Previwe:hover {
+  filter: brightness(40%);
+}
+.delete_image{
+  font-size: small;
+}
+.delete_image:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+.Preview_Image_Upload{
+  border-radius: 30px;
+}
+
+@media (min-width: 350px) {
+  
+}
+
+@media (min-width: 768px) {
+  ._w_search {
+    width: 280px;
+  }
+  ._w_100 {
+    width: auto;
+  }
+  ._hamberger {
+    margin-right: 640px;
+  }
+}
+@media (max-width: 1000px) {
+  .fa-chevron-left {
+    display: none;
+  }
+  .fa-chevron-right{
+    display: none;
+  }
+  
+}
+
+
+@media (min-width: 992px) {
+  ._main {
+    width: calc(100% - 340px) !important;
+    margin-left: 300px;
+  }
+  ._w_search {
+    width: 220px;
+  }
+}
+
+@media (min-width: 1200px) {
+  ._w_search {
+    width: 300px;
+  }
+  .nuxt-link-exact-active._menu_list {
+    background-color: #29170b;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 2px 6px 0px rgba(41, 23, 11, 0.48);
+  }
+  /* CSS Media Queries สำหรับปรับ Swiper ให้ responsive */
+
+}

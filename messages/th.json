@@ -1,0 +1,84 @@
+{
+    "INDEX": {
+      "Hello": "สวัสดี",
+      "Fname": "ชื่อหน้าแรก"
+    },
+    "EMPLOYEE": {
+      "Fname": "ชื่อ",
+      "Lname": "นามสกุล"
+    },
+    "TEXT": {
+      "Name": "ชื่อ",
+      "User": "ผู้ใช้งาน",
+      "Userlogin": "ผู้ใช้ที่เข้าสู่ระบบ",
+      "Userlogin2": "ผู้ใช้ที่เข้าสู่ระบบ",
+      "Tel": "เบอร์โทร",
+      "Status": "สถานะ",
+      "Action": "พฤติกรรม",
+      "Dashboards": "แดชบอร์ด",
+      "Systems": "ระบบ",
+      "Employee": " พนักงาน",
+      "Nickname": "ชื่อเล่น",
+      "Membership": "สมาชิก",
+      "Horse": "ม้า",
+      "Groupuser": "กลุ่มผู้ใช้",
+      "Managesystems": "จัดการระบบ",
+      "Settings": "ตั้งค่า",
+      "Email": "อีเมล",
+      "Support": "ช่วยเหลือ",
+      "Profile": "โปรไฟล์",
+      "Farm": "ฟาร์ม",
+      "Memberlavel": "ระดับสมาชิก",
+      "Createdate": "วันที่สร้าง",
+      "Lastdate": "วันสุดท้าย",
+      "Hose": "ม้า",
+      "Price": "ราคา",
+      "Weight": "น้ำหนัก",
+      "Ownername": "ชื่อเจ้าของ",
+      "Passportid": "หนังสือเดินทาง",
+      "Groupname": "ชื่อกลุ่ม",
+      "Groupdescription": "การจัดกลุ่มคำอธิบาย",
+      "GroupUser": "ผู้ใช้กลุ่ม",
+      "Valuedata": "ข้อมูลราคา",
+      "COACH NAME": "ชื่อโค้ช",
+      "BOOKING START": "เริ่มการจอง",
+      "BOOKING END": "จบกการจอง",
+      "BOOKING STATUS": "สถานะการจอง",
+      "BOOKING NAME": "ชื่อการจอง",
+      "BOOKING NO": "หมายเลขการจอง",
+      "TEL": "เบอร์โทร",
+      "BOOKINGNO": "รหัสการจอง",
+      "Booking": "การจอง",
+      "AddBooking": "",
+      "EMPLOYEE NAME": "ชื่อพนักงาน",
+      "DESCRIPTION": "ที่อยู่",
+      "START DATE": "วันที่เริ่ม",
+      "END DATE": "วันสุดท้าย",
+      "CHAOCH NAME": "ชื่อโค้ช",
+      "CARETAKER HISTORY STATUS": "สถานะประวัติผู้ดูแล",
+      "Authentication": "การรับรองความถูกต้อง",
+      "Searchfilter": "กรองการค้นหา",
+      "Copyright unicorn":"ลิขสิทธิ์ ของบริษัท ยูนิคอร์นเทคอินทริเกรชั่น จำกัด 2023 เงื่อนไขการสงวนลิขสิทธิ์ นโยบายความเป็นส่วนตัว และนโยบายคุกกี้"
+    },
+    "TEXT-INPUT": {
+      "Search": "ค้นหา...",
+      "Selectrole": "เลือกหน้าที่",
+      "Selectplan": "เลือกเจาะจง",
+      "Selectstatus": "เลือกสถานะ"
+    },
+    "BUTTON": {
+      "Adduser": "เพิ่มผู้ใช้งาน",
+      "Export": "ส่งออก",
+      "AddEmployee": "เพิ่มข้อมูลพนักงาน",
+      "AddHorse": "เพิ่มข้อมูลม้า",
+      "AddMembership": "เพิ่มข้อมูลเจ้าของม้า",
+      "Addgroupuser": "เพิ่มกลุ่มผู้ใช้งาน",
+      "AddBooking": "เพิ่มการจอง"
+    },
+    "MENUBAR": {
+        "Profile":"โปรไฟล์",
+        "Chang Password":"เปลี่ยนหรัสผ่าน",
+        "Logout":"ออกจากระบบ"
+    }
+  }
+  

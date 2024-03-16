@@ -1,0 +1,86 @@
+{
+    "INDEX": {
+      "Hello": "Hello",
+      "Fname": "First NameIndex"
+    },
+    "EMPLOYEE": {
+      "Fname": "First Name",
+      "Lname": "Last Name"
+    },
+    "TEXT": {
+      "Name": "NAME",
+      "User": "User",
+      "Userlogin": "User login",
+      "Userlogin2": "USER LOGIN",
+      "Tel": "TEL",
+      "Status": "STATUS",
+      "Action": "ACTION",
+      "Dashboards": "Dashboards",
+      "Systems": "Systems",
+      "Membership": "Membership",
+      "Horse": "Horse",
+      "Groupuser": "Group User",
+      "Managesystems": "Manage Systems",
+      "Employee": "Employee",
+      "Nickname": "NICKNMAE",
+      "Settings": "Settings",
+      "Profile": "Profile",
+      "AddEmployee": "Add Employee",
+      "Email": "EMAIL",
+      "Support": "Support",
+      "Farm": "FRAM",
+      "Memberlavel": "MEMBER LEVEL",
+      "Createdate": "CREAR DATE",
+      "Lastdate": "LAST DATE",
+      "Hose": "HORSE",
+      "Price": "PRICE",
+      "Weight": "WEIGHT",
+      "Booking": "Booking",
+      "Ownername": "OWNER NAME",
+      "Groupname": "GROUP NAME",
+      "Groupdescription": "GROUPDACSCRIPTION",
+      "GroupUser": "Group User",
+      "Passportid": "PASSPORTID",
+      "Valuedata": "VALUE DATA",
+      "Authentication": "AUTHENTICATION",
+      "COACH NAME": "COACH NAME",
+      "BOOKING START": "BOOKING START",
+      "BOOKING END": "BOOKING END",
+      "BOOKING STATUS": "BOOKING STATUS",
+      "BOOKING NAME": "BOOKING NAME",
+      "EMPLOYEE NAME": "EMPLOYEE NAME",
+      "DESCRIPTION": "DESCRIPTION",
+      "START DATE": "START DATE",
+      "END DATE": "END DATE",
+      "CARETAKER HISTORY STATUS": "CARETAKER HISTORY STATUS",
+      "BOOKING NO": "BOOKING END",
+      "CHAOCH NAME": "CHAOCH NAME",
+      "TEL": "TEL",
+      
+      "BOOKINGNO": "BOOKING NO.",
+      "Searchfilter": "Search Filter",
+      "Copyright unicorn":"Copyright Unicorn Tech Integration 2023. All Rights Reserved Terms, Privacy Policy and Cookies Policy"
+  
+    },
+    "TEXT-INPUT": {
+      "Search": "Search...",
+      "Selectrole": "Select Role",
+      "Selectplan": "Select Plan",
+      "Selectstatus": "Selec Status"
+    },
+    "BUTTON": {
+      "Adduser": "Add User",
+      "Export": "Export",
+      "AddEmployee": "Add Employee",
+      "AddHorse": "AddHorse",
+      "AddMembership": "AddMembership",
+      "Addgroupuser": "AddGroupUser",
+      "AddBooking": "AddBooking"
+    },
+    "MENUBAR": {
+        "Profile":"Profile",
+        "Chang Password":"Chang Password",
+        "Logout":"Logout"
+    }
+  }
+  
